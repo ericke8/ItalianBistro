@@ -3,3 +3,8 @@
     width: 128px;
     object-fit: cover;
 }
+
+.rowFlex{
+    display:flex;
+    flex-wrap: wrap;
+}

@@ -6,7 +6,8 @@ export const DISHES = [
         category: 'appetizer',
         label: '',
         price: '4.99',
-        description:'A collection of specially selected meats and cheeses paired with freshly baked breadsticks and grapes.'
+        description:'A collection of specially selected meats and cheeses paired with freshly baked breadsticks and grapes.',
+        comments: []
     },
     {
         id: 1,
@@ -15,7 +16,8 @@ export const DISHES = [
         category: 'mains',
         label: 'Hot',
         price: '11.99',
-        description: 'Sliced grilled chicken and homemade alfredo sauce over fettuccine pasta.'
+        description: 'Sliced grilled chicken and homemade alfredo sauce over fettuccine pasta.',
+        comments: []
     },
     {
         id: 2,
@@ -24,7 +26,8 @@ export const DISHES = [
         category: 'mains',
         label: 'New',
         price: '12.99',
-        description: 'Layered lasgna noodles, italian sausage and beef, ricotta cheese, tomato sauce, and baked mozzarella and romano cheese.'
+        description: 'Layered lasgna noodles, italian sausage and beef, ricotta cheese, tomato sauce, and baked mozzarella and romano cheese.',
+        comments: []
     },
     {
         id: 3,
@@ -33,7 +36,8 @@ export const DISHES = [
         category: 'mains',
         label: '',
         price: '10.99',
-        description: 'Penne pasta combined with three differnt cheeses and topped with a spicy marinara sauce.'
+        description: 'Penne pasta combined with three differnt cheeses and topped with a spicy marinara sauce.',
+        comments: []
     },
     {
         id: 4,
@@ -42,7 +46,8 @@ export const DISHES = [
         category: 'mains',
         label: '',
         price: '14.99',
-        description: 'A delicious blend of three different cheese, tomato basil sauce, and your choice of four other ingredients, all baked together into one pizza. (Choose 4 - Pepperoni, Sausage, Ham, Olives, Onions, Bell Peppers, Mushrooms, Extra Cheese)'
+        description: 'A delicious blend of three different cheese, tomato basil sauce, and your choice of four other ingredients, all baked together into one pizza. (Choose 4 - Pepperoni, Sausage, Ham, Olives, Onions, Bell Peppers, Mushrooms, Extra Cheese)',
+        comments: []
     },
     {
         id: 5,
@@ -51,6 +56,7 @@ export const DISHES = [
         category: 'desserts',
         label: '',
         price: '4.99',
-        description: 'Three scoops of delectable, creamy Italian ice cream, paired with a waffle cone.  (Strawberry, Vanilla, Chocolate, Hazelnut, Coffee)'
+        description: 'Three scoops of delectable, creamy Italian ice cream, paired with a waffle cone.  (Strawberry, Vanilla, Chocolate, Hazelnut, Coffee)',
+        comments: []
     }
 ];
