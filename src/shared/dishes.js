@@ -6,7 +6,7 @@ export const DISHES = [
         category: 'appetizer',
         label: '',
         price: '4.99',
-        description:'A collection of specially selected meats and cheeses paired with freshly baked breadsticks and grapes.',
+        description: 'A collection of specially selected meats and cheeses paired with freshly baked breadsticks and grapes.',
         comments: []
     },
     {
@@ -27,7 +27,15 @@ export const DISHES = [
         label: 'New',
         price: '12.99',
         description: 'Layered lasgna noodles, italian sausage and beef, ricotta cheese, tomato sauce, and baked mozzarella and romano cheese.',
-        comments: []
+        comments: [
+            {
+                id: 0,
+                rating: 5,
+                comment: "Absolutely delicious!",
+                author: "John Smith",
+                date: "03-16-2019"
+            }
+        ]
     },
     {
         id: 3,

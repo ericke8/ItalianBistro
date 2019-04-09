@@ -1,0 +1,4 @@
+.rowFlex{
+    display:flex;
+    flex-wrap: wrap;
+}
