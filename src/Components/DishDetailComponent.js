@@ -11,9 +11,18 @@ class DishDetail extends Component {
 
     renderComments(comments) {
         if (comments != null) {
+            const allComments = comments.map((comment) => {
+                return (
+                    <div>
+                        <p>{comment.comment}</p>
+                        <p>--{comment.author}, {comment.date}</p>
+                    </div>
+                );
+            });
             return (
                 <div>
                     <h4>Comments</h4>
+                    {allComments}
                 </div>
             );
         } else {
