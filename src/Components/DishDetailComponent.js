@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardTitle, CardText, CardBody } from 'reactstrap';
 
 class DishDetail extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -13,7 +14,7 @@ class DishDetail extends Component {
         if (comments != null) {
             const allComments = comments.map((comment) => {
                 return (
-                    <div>
+                    <div key={comment.id}>
                         <p>{comment.comment}</p>
                         <p>--{comment.author}, {comment.date}</p>
                     </div>
@@ -30,7 +31,17 @@ class DishDetail extends Component {
         }
     }
 
+    componentDidMount() {
+        console.log('DishDetail Component componentDidMount invoked');
+    }
+
+    componentDidUpdate() {
+        console.log('DishDetail Component componentDidUpdate invoked')
+    }
+
     render() {
+        console.log('DishDetail Component render invoked')
+
         if (this.props.selectedDish != null) {
             return (
                 <div className="container">
